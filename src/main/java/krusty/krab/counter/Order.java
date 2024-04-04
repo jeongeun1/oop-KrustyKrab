@@ -28,6 +28,7 @@ public class Order {
         List<Integer> randomNumList = randomNumSet.stream().toList();
         for (int i = 0; i < randomNum; i++) {
             burgers[i] = burgerRepository.getBurger(randomNumList.get(i));
+
         }
     }
 
